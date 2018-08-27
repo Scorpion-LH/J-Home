@@ -1,0 +1,2670 @@
+[ 2017-02-22T11:58:21+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.194752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002756s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.6602s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.1056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000601s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.500191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.500380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.048381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.096917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.097234s ]
+
+[ 2017-02-22T13:34:20+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.1030s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-02-22T13:34:43+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.1142s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-02-22T13:34:54+08:00 ] ::1 /myBS/index.php/List/mdlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-02-22T13:35:07+08:00 ] ::1 /myBS/index.php/List/mdlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-02-22T13:35:16+08:00 ] ::1 /myBS/index.php/List/mdlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-02-22T13:35:18+08:00 ] ::1 /myBS/index.php/List/mdlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-02-22T13:36:55+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2017-02-22T13:36:57+08:00 ] ::1 /myBS/index.php/List/mdlist/title/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-02-22T13:37:01+08:00 ] ::1 /myBS/index.php/List/mdlist/title/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-02-22T13:37:14+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-02-22T13:37:15+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E6%B2%99%E5%8F%91%E5%92%8C%E6%89%B6%E6%89%8B%E6%A4%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-02-22T13:37:18+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E6%B2%99%E5%8F%91%E5%92%8C%E6%89%B6%E6%89%8B%E6%A4%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-02-22T13:37:22+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E6%B2%99%E5%8F%91%E5%92%8C%E6%89%B6%E6%89%8B%E6%A4%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-02-22T13:37:35+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-02-22T13:37:36+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-02-22T13:39:05+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-02-22T13:39:06+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-02-22T13:39:13+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E6%B2%99%E5%8F%91%E5%BA%8A.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-02-22T13:39:20+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E8%B4%B5%E5%A6%83%E6%A4%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-02-22T13:41:52+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `jj_goods`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-02-22T13:44:22+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0101s ]
+ERR: 1054:Unknown column '布艺沙发' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jj_goods` WHERE ( title=布艺沙发 ) 
+ERR: 1054:Unknown column '布艺沙发' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `jj_goods` WHERE ( title=布艺沙发 ) 
+
+[ 2017-02-22T13:44:49+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2017-02-22T13:46:37+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: title D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-02-22T13:49:29+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-02-22T13:49:33+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2017-02-22T13:49:35+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E7%9A%AE%E6%B2%99%E5%8F%91%E5%92%8C%E4%BA%BA%E9%80%A0%E9%9D%A9%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='皮沙发和人造革沙发' ) LIMIT 1   [ RunTime:0.0594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-02-22T13:49:39+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E6%B2%99%E5%8F%91%E5%BA%8A.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='沙发床' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-02-22T13:49:41+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-02-22T13:49:49+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-02-22T13:49:50+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined index: title D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2017-02-22T13:50:41+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2017-02-22T13:50:44+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E7%9A%AE%E6%B2%99%E5%8F%91%E5%92%8C%E4%BA%BA%E9%80%A0%E9%9D%A9%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='皮沙发和人造革沙发' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-02-22T13:50:48+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E6%B2%99%E5%8F%91%E5%BA%8A.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='沙发床' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-02-22T13:51:54+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-02-22T14:20:11+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-02-22T14:20:15+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E7%9A%AE%E6%B2%99%E5%8F%91%E5%92%8C%E4%BA%BA%E9%80%A0%E9%9D%A9%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='皮沙发和人造革沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='皮沙发和人造革沙发' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2017-02-22T14:20:34+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0538s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2017-02-22T14:20:36+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-02-22T14:20:39+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-02-22T14:21:09+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000499s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000780s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2017-02-22T14:21:30+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E7%9A%AE%E6%B2%99%E5%8F%91%E5%92%8C%E4%BA%BA%E9%80%A0%E9%9D%A9%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='皮沙发和人造革沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='皮沙发和人造革沙发' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-02-22T14:21:32+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%AE%A2%E5%8E%85.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='客厅' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: 10 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+NOTIC: [8] Undefined index: 11 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\b5e78cad774133738cdf21e73c2e5b9e.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-02-22T14:21:34+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E7%9A%AE%E6%B2%99%E5%8F%91%E5%92%8C%E4%BA%BA%E9%80%A0%E9%9D%A9%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0607s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='皮沙发和人造革沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='皮沙发和人造革沙发' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-02-22T14:21:44+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-02-22T14:21:48+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E7%9A%AE%E6%B2%99%E5%8F%91%E5%92%8C%E4%BA%BA%E9%80%A0%E9%9D%A9%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='皮沙发和人造革沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='皮沙发和人造革沙发' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-02-22T14:22:11+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E7%9A%AE%E6%B2%99%E5%8F%91%E5%92%8C%E4%BA%BA%E9%80%A0%E9%9D%A9%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='皮沙发和人造革沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='皮沙发和人造革沙发' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-02-22T14:22:23+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E6%B2%99%E5%8F%91%E5%BA%8A.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.1094s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='沙发床' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='沙发床' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-02-22T14:22:32+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E7%9A%AE%E6%B2%99%E5%8F%91%E5%92%8C%E4%BA%BA%E9%80%A0%E9%9D%A9%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='皮沙发和人造革沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='皮沙发和人造革沙发' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-02-22T14:25:14+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.1872s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: thumbnail D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 63 行.
+NOTIC: [8] Undefined index: name D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 64 行.
+NOTIC: [8] Undefined index: sname D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 65 行.
+NOTIC: [8] Undefined index: price D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 66 行.
+NOTIC: [8] Undefined index: thumbnail D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 63 行.
+NOTIC: [8] Undefined index: name D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 64 行.
+NOTIC: [8] Undefined index: sname D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 65 行.
+NOTIC: [8] Undefined index: price D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 66 行.
+NOTIC: [8] Undefined index: thumbnail D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 63 行.
+NOTIC: [8] Undefined index: name D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 64 行.
+NOTIC: [8] Undefined index: sname D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 65 行.
+NOTIC: [8] Undefined index: price D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 66 行.
+NOTIC: [8] Undefined index: thumbnail D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 63 行.
+NOTIC: [8] Undefined index: name D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 64 行.
+NOTIC: [8] Undefined index: sname D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 65 行.
+NOTIC: [8] Undefined index: price D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2017-02-22T14:25:51+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-02-22T14:25:52+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%7Bv.thumbnail%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0622s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='{v.thumbnail}' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='{v.thumbnail}' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-02-22T14:26:18+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-02-22T14:28:05+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0621s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2017-02-22T14:28:14+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-02-22T14:28:44+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2017-02-22T14:29:27+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001878s ]
+
+[ 2017-02-22T14:30:32+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: vo2 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-02-22T14:30:40+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined variable: vo2 D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\dd6ef9fc4666f7a74ad05681f0884ba2.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2017-02-22T14:30:40+08:00 ] ::1 /myBS/index.php/Goods/good.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-02-22T14:32:33+08:00 ] ::1 /myBS/index.php/Goods/good.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: name D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-02-22T14:32:35+08:00 ] ::1 /myBS/index.php/Goods/good.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined index: name D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-02-22T14:33:55+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-02-22T14:33:55+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-02-22T14:49:53+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-02-22T14:53:22+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2017-02-22T14:53:27+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2017-02-22T14:53:54+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2017-02-22T14:53:58+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-02-22T14:57:33+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-02-22T15:02:02+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-02-22T15:02:40+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-02-22T15:02:43+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-02-22T15:03:38+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-02-22T15:03:43+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-02-22T15:03:44+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-02-22T15:05:11+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-02-22T15:05:13+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-02-22T15:05:33+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-02-22T15:05:36+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-02-22T15:05:39+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-02-22T15:05:40+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2017-02-22T15:09:00+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-02-22T15:09:16+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-02-22T15:09:19+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2017-02-22T15:09:21+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0709s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-02-22T15:09:30+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `guige1_text` FROM `jj_goods`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-02-22T15:11:25+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-02-22T15:11:42+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2017-02-22T15:17:33+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-02-22T15:32:15+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige1_text`,`guige2_text`,`guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002179s ]
+
+[ 2017-02-22T15:37:37+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`guige1_text`,`guige2_text`,`guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-02-22T15:37:40+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`guige1_text`,`guige2_text`,`guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2017-02-22T15:50:34+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`guige1_text`,`guige2_text`,`guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-22T15:50:58+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text`,`guige2_text`,`guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2017-02-22T15:51:12+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`guige1_text`,`guige2_text`,`guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2017-02-22T15:57:36+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003789s ]
+
+[ 2017-02-22T15:57:41+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `guige1_text`,`guige2_text`,`guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2017-02-22T15:58:23+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-02-22T15:59:02+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002426s ]
+
+[ 2017-02-22T16:03:38+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `guige1_text`,`guige2_text`,`guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' )  [ RunTime:0.0008s ]
+NOTIC: [2] explode() expects parameter 2 to be string, array given D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002609s ]
+
+[ 2017-02-22T16:03:54+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2017-02-22T16:05:13+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2017-02-22T16:05:57+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2017-02-22T16:29:31+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2017-02-22T16:29:53+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-02-22T16:29:59+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-02-22T16:33:10+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003166s ]
+
+[ 2017-02-22T16:33:39+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0576s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2017-02-22T16:33:41+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0532s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-02-22T16:33:44+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-02-22T16:33:58+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-02-22T16:34:04+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-02-22T16:34:12+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2017-02-22T16:34:47+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2017-02-22T16:34:58+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-02-22T16:35:02+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-02-22T16:35:05+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-02-22T16:36:04+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2017-02-22T16:36:10+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2017-02-22T21:27:00+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+

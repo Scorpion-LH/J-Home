@@ -1,0 +1,42 @@
+<title>沙发和手扶椅-客厅-简家家居生活</title>
+<include file="Common:head" />
+
+<div class="list mdlist">
+	<div class="container">
+		<div class="title">
+			<notempty name="list['title']">
+			<h3>简家{$list.title}</h3>
+			<h2>{$list.stitle}</h2>
+			<p>{$list.title_desc}</p>
+			<else />
+			您搜索的有关 “{$data}” 的产品结果如下：
+			</notempty>
+		</div>
+		<div class="row">
+			<volist name="good" id="v">
+			<div class="col-xs-6 col-sm-4 col-md-3">
+				<div class="goods-thumbnail">
+					<a href="{:U('Goods/good',array('id'=>$v['id']))}">
+					<img data-original="{$v.thumbnail}"/>
+					<p>{$v.name}</p>
+					<p>{$v.sname}</p>
+					<p>¥ {$v.price|sprintf='%.2f',###}</p>
+					</a>
+				</div>
+			</div>
+			</volist>
+		</div>
+		<ol class="breadcrumb">
+		  <li><a href="{:U('Index/index')}">首页</a></li>
+		  <li><a href="{:U('List/lglist',array('room'=>$topClass['id']))}">{$topClass.title}</a></li>
+		  <li><a href="{:U('List/lglist',array('room'=>$topClass['id']))}">{$class.title}</a></li>
+		  <li>{$list.title}</li>
+		</ol>
+	</div>
+</div>
+
+
+<include file="Common:foot" />
+
+</body>
+</html>

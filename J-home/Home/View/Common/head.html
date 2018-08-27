@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>简家家居生活</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="Keywords" content="简家,家居,生活"/>
+	<meta name="Description" content="简家家居生活"/>
+	<link rel="icon" href="__IMG__/J-home-logo-08.png"/>
+	<link rel="stylesheet" href="__CSS__/bootstrap.min.css" />
+	<link rel="stylesheet" href="__CSS__/reset.css" />
+	<link rel="stylesheet" href="__CSS__/style.css" />
+	<link rel="stylesheet" type="text/css" href="__CSS__/font-awesome.min.css"/>
+	<style type="text/css">
+	@media print{
+		input{border: 0;width: 35px;}
+		.buy-table tr td:last-child{display: none;}
+		.btn{display: none;}
+		.print-show{display: block;margin-top: 50px;}
+	}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="{:U('Index/index')}"><img src="__IMG__/J-home-logo-08.png"  alt="简家家居" class="img-responsive" /></a>
+	    </div>
+		<form action="{:U('List/search')}" method="get" class="search-pos visible-xs">
+	      <div class="input-group" style="width: 150px;">
+		    <input type="text" name="search" class="form-control" placeholder="搜索产品...">
+		    <span class="input-group-btn">
+		    	<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+		    </span>
+		  </div>
+      	</form>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+	      <ul class="nav navbar-nav">
+	        <li><a href="{:U('Index/index')}">首页</a></li>
+	        <li><a href="{:U('About/about')}">简家简介</a></li>
+	        <li><a href="{:U('Design/design')}">简设创意</a></li>
+	        <li><a href="{:U('About/map')}">简体验馆</a></li>
+	        <li><a href="{:U('About/join')}">人才招聘</a></li>
+	        <li><a href="{:U('About/question')}">常见问题</a></li>
+		  </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="hidden-xs hidden-sm">
+		      <form action="{:U('List/search')}" method="get">
+			      <div class="input-group" style="width: 200px;">
+				    <input type="text" name="search" class="form-control" placeholder="搜索产品...">
+				    <span class="input-group-btn">
+				    	<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+				    </span>
+				  </div>
+		      </form>
+	        </li>
+	        <li><a href="{:U('Goods/bill')}">愿望清单<span class="badge badge1">{$listNum}</span></a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>

@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<title>客厅-简家家居生活</title>
+<include file="Common:head" />
+<style type="text/css">
+.glyphicon.glyphicon-search {
+	padding: 0;
+}
+</style>
+<nav class="navbar navbar-default index-nav navbar-fixed-top" role="navigation" hidden="hidden">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{:U('Index/index')}"><img src="__IMG__/J-home-logo-08.png"  alt="简家家居" class="img-responsive" /></a>
+    </div>
+	<form action="{:U('List/search')}" method="get" class="search-pos visible-xs">
+      <div class="input-group" style="width: 150px;">
+	    <input type="text" name="search" class="form-control" placeholder="搜索产品...">
+	    <span class="input-group-btn">
+	    	<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+	    </span>
+	  </div>
+  	</form>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="{:U('List/lglist',array('room'=>'1'))}">客厅</a></li>
+        <li><a href="{:U('List/lglist',array('room'=>'2'))}">卧室</a></li>
+        <li><a href="{:U('List/lglist',array('room'=>'3'))}">厨房</a></li>
+        <li><a href="{:U('List/lglist',array('room'=>'4'))}">餐厅</a></li>
+        <li><a href="{:U('List/lglist',array('room'=>'5'))}">浴室</a></li>
+	  </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden-xs hidden-sm">
+	      <form action="{:U('List/search')}" method="get">
+		      <div class="input-group" style="width: 200px;">
+			    <input type="text" name="search" class="form-control" placeholder="搜索产品...">
+			    <span class="input-group-btn">
+			    	<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+			    </span>
+			  </div>
+	      </form>
+        </li>
+        <li><a href="{:U('Goods/bill')}">愿望清单<span class="badge badge1">{$listNum}</span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="list">
+	<div class="container">
+		<div class="row banner-box">
+			<img src="{$banner.img}" alt="" class="img-responsive"/>
+		</div>
+		<div class="row list-box">
+			<volist name="list[$banner['id']]" id="vo">
+			<div class="list-in col-xs-12">
+				<div class="col-xs-12 col-sm-12 col-md-6">
+					<img data-original="{$vo.img}" class="img-responsive"/>
+				</div>
+				<div class="list-title col-xs-12 col-sm-12 col-md-6">
+				<span class="title">{$vo.title}</span><span class="titleNum"></span><br />
+					<volist name="list[$vo['id']]" id="vo2">
+					<div class="col-xs-6 list-con">
+					<a href="{:U('List/mdlist',array('title'=>$vo2['title']))}">{$vo2.title}</a>
+					</div>
+					</volist>
+				</div>
+			</div>
+			</volist>
+		</div>
+	</div>
+</div>
+
+
+<include file="Common:foot" />
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var win = $(window);
+    var doc = $(document);
+    var iNav = $(".index-nav");
+      	
+    win.scroll(function(){
+    	if(doc.scrollTop()>450){
+    		iNav.fadeIn(100);
+    	}else{
+    		iNav.fadeOut(100);
+    	}
+    })
+	
+	var title = new Array();//定义数组  
+    $('.title').each(function () {  
+        title.push($(this).text())  
+    }); 
+	console.log(title);
+	
+	$.ajax({
+		type:"post",
+		url:"{:U('List/countnum')}",
+		async:true,
+//		dataType:"text",
+		data: {title:title},
+		cache: false,
+		success:function(data){
+			for(var i=0;i<data.length;i++){
+				$(".titleNum").eq(i).text('('+data[i]+')');
+			}
+		},
+		error:function(){
+			console.log("分类数量统计有误");
+		}
+	});
+	
+	var inHeight = $(".list-in").height()-50;
+	
+    $(window).scroll(function(){
+    	$(".list-in").each(function(){
+	        if($(window).scrollTop()+$(window).height()>$(this).offset().top+inHeight){
+	            $(this).children(".list-title").animate({"left":"0","opacity":1},function(){
+	            	$(this).children(".list-con").slideDown();
+	            });
+	        }
+    	})
+    });
+});
+
+</script>
+
+</body>
+</html>

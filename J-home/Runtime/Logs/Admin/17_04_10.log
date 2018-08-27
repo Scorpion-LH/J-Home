@@ -1,0 +1,713 @@
+[ 2017-04-10T22:07:57+08:00 ] ::1 /myBS/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001838s ]
+
+[ 2017-04-10T22:07:59+08:00 ] ::1 /myBS/Admin/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2017-04-10T22:08:07+08:00 ] ::1 /myBS/Admin/Index/admin_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `jj_admin` [ RunTime:0.1503s ]
+SQL: SELECT * FROM `jj_admin` WHERE `name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-04-10T22:08:07+08:00 ] ::1 /myBS/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004438s ]
+
+[ 2017-04-10T22:08:10+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102207107779'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102204266037'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2017-04-10T22:08:16+08:00 ] ::1 /myBS/Admin/Order/order_del/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0106s ]
+SQL: SELECT `order_id` FROM `jj_order` WHERE ( id='27' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: DELETE FROM `jj_order` WHERE ( id='27' ) [ RunTime:0.0856s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0097s ]
+SQL: DELETE FROM `jj_order_goods` WHERE ( order_id='04102207107779' ) [ RunTime:0.0008s ]
+
+[ 2017-04-10T22:08:17+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102204266037'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04070014239336'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2017-04-10T22:08:21+08:00 ] ::1 /myBS/Admin/Order/order_del/id/26.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0093s ]
+SQL: SELECT `order_id` FROM `jj_order` WHERE ( id='26' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: DELETE FROM `jj_order` WHERE ( id='26' ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0105s ]
+SQL: DELETE FROM `jj_order_goods` WHERE ( order_id='04102204266037' ) [ RunTime:0.0008s ]
+
+[ 2017-04-10T22:08:22+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002479s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04070014239336'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04062337052488'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012163s ]
+
+[ 2017-04-10T22:12:51+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04070014239336'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000582s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000887s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002238s ]
+
+[ 2017-04-10T22:13:04+08:00 ] ::1 /myBS/Admin/Good/good.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined variable: room D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Admin\683af6979c407a6c02e3d6e8a6457e00.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2017-04-10T22:13:04+08:00 ] ::1 /myBS/Admin/Good/get_title.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: room D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Admin\683af6979c407a6c02e3d6e8a6457e00.php 第 67 行.
+NOTIC: [8] Undefined variable: goods D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Admin\683af6979c407a6c02e3d6e8a6457e00.php 第 97 行.
+NOTIC: [8] Undefined variable: page D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Admin\683af6979c407a6c02e3d6e8a6457e00.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002435s ]
+
+[ 2017-04-10T22:53:07+08:00 ] ::1 /myBS/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2017-04-10T22:53:07+08:00 ] ::1 /myBS/Admin/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-04-10T22:53:15+08:00 ] ::1 /myBS/Admin/Index/admin_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `jj_admin` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `jj_admin` WHERE `name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-04-10T22:53:15+08:00 ] ::1 /myBS/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000731s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004042s ]
+
+[ 2017-04-10T22:53:18+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04070014239336'  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003095s ]
+
+[ 2017-04-10T22:54:25+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102254185002'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102254179400'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002181s ]
+
+[ 2017-04-10T22:54:34+08:00 ] ::1 /myBS/Admin/Map/map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `jj_map` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `jj_map`  [ RunTime:0.0432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Undefined variable: page D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Admin\ef4b35fcc6064733b822eec7a6125ceb.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002492s ]
+
+[ 2017-04-10T22:54:36+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102254185002'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102254179400'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2017-04-10T22:54:49+08:00 ] ::1 /myBS/Admin/Order/order_del/id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0104s ]
+SQL: SELECT `order_id` FROM `jj_order` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: DELETE FROM `jj_order` WHERE ( id='30' ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0113s ]
+SQL: DELETE FROM `jj_order_goods` WHERE ( order_id='04102254185002' ) [ RunTime:0.0007s ]
+
+[ 2017-04-10T22:54:50+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003400s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102254179400'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000706s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000991s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001851s ]
+
+[ 2017-04-10T22:55:06+08:00 ] ::1 /myBS/Admin/Order/order_del/id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0086s ]
+SQL: SELECT `order_id` FROM `jj_order` WHERE ( id='29' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: DELETE FROM `jj_order` WHERE ( id='29' ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0110s ]
+SQL: DELETE FROM `jj_order_goods` WHERE ( order_id='04102254179400' ) [ RunTime:0.0007s ]
+
+[ 2017-04-10T22:55:07+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04070014239336'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002085s ]
+
+[ 2017-04-10T22:55:28+08:00 ] ::1 /myBS/Admin/Map/map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `jj_map` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `jj_map`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Undefined variable: page D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Admin\ef4b35fcc6064733b822eec7a6125ceb.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003112s ]
+
+[ 2017-04-10T22:55:30+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102255232242'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-04-10T23:19:45+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102315555160'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102311051112'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102255232242'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-04-10T23:19:58+08:00 ] ::1 /myBS/Admin/Order/order_del/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0042s ]
+SQL: SELECT `order_id` FROM `jj_order` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `jj_order` WHERE ( id='33' ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0038s ]
+SQL: DELETE FROM `jj_order_goods` WHERE ( order_id='04102315555160' ) [ RunTime:0.0005s ]
+
+[ 2017-04-10T23:19:59+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102311051112'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102255232242'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-04-10T23:20:02+08:00 ] ::1 /myBS/Admin/Order/order_del/id/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0097s ]
+SQL: SELECT `order_id` FROM `jj_order` WHERE ( id='32' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: DELETE FROM `jj_order` WHERE ( id='32' ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0113s ]
+SQL: DELETE FROM `jj_order_goods` WHERE ( order_id='04102311051112' ) [ RunTime:0.0010s ]
+
+[ 2017-04-10T23:20:03+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102255232242'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-04-10T23:20:06+08:00 ] ::1 /myBS/Admin/Order/order_del/id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0111s ]
+SQL: SELECT `order_id` FROM `jj_order` WHERE ( id='31' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: DELETE FROM `jj_order` WHERE ( id='31' ) [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0112s ]
+SQL: DELETE FROM `jj_order_goods` WHERE ( order_id='04102255232242' ) [ RunTime:0.0010s ]
+
+[ 2017-04-10T23:20:07+08:00 ] ::1 /myBS/Admin/Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `jj_order` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jj_order_goods` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_order` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102212161648'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04102201024188'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091434507725'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04091147422168'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_order_goods` WHERE `order_id` = '04070014239336'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+

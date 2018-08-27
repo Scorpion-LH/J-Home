@@ -1,0 +1,367 @@
+<title>购物清单-简家家居生活</title>
+<include file="Common:head" />
+<style type="text/css">
+	.has-feedback label~.form-control-feedback {
+		top:20px;
+	}
+</style>
+<div class="bill">
+	<div class="container">
+		<empty name="bill">
+			<div class="col-xs-12 is-empty">
+				<div class="jumbotron">
+			        <h1>您还没有添加产品，<br />先去添加吧!</h1><br />
+			        <p><a href="{:U('Index/index')}" class="btn btn-primary btn-lg" role="button">
+			      	 去逛逛</a>
+			      	</p>
+				</div>
+				<h3>为您推荐：</h3>
+				<div class="row img-right">
+					<volist name="keting" id="kt">
+						<volist name="kt['good']" id="g">
+							<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+								<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+									<div class="col-xs-7 col-sm-12 col-md-12">
+							     		<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+							     	</div>
+									<div class="col-xs-5 col-sm-12 col-md-12">
+							      		<p>{$g.name}({$g.sname})</p>
+							     	</div>
+							    </a>
+							</div>
+						</volist>
+					</volist>
+					<volist name="woshi" id="ws">
+						<volist name="ws['good']" id="g">
+							<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+								<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+									<div class="col-xs-7 col-sm-12 col-md-12">
+							     		<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+							     	</div>
+									<div class="col-xs-5 col-sm-12 col-md-12">
+							      		<p>{$g.name}({$g.sname})</p>
+							     	</div>
+							    </a>
+							</div>
+						</volist>
+					</volist>
+					<volist name="canting" id="ct">
+						<volist name="ct['good']" id="g">
+							<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+								<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+									<div class="col-xs-7 col-sm-12 col-md-12">
+							     		<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+							     	</div>
+									<div class="col-xs-5 col-sm-12 col-md-12">
+							      		<p>{$g.name}({$g.sname})</p>
+							     	</div>
+							    </a>
+							</div>
+						</volist>
+					</volist>
+					<volist name="chufang" id="cf">
+						<volist name="cf['good']" id="g">
+							<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+								<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+									<div class="col-xs-7 col-sm-12 col-md-12">
+							     		<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+							     	</div>
+									<div class="col-xs-5 col-sm-12 col-md-12">
+							      		<p>{$g.name}({$g.sname})</p>
+							     	</div>
+							    </a>
+							</div>
+						</volist>
+					</volist>
+					<volist name="yushi" id="ys">
+						<volist name="ys['good']" id="g">
+							<div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+								<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+									<div class="col-xs-7 col-sm-12 col-md-12">
+							     		<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+							     	</div>
+									<div class="col-xs-5 col-sm-12 col-md-12">
+							      		<p>{$g.name}({$g.sname})</p>
+							     	</div>
+							    </a>
+							</div>
+						</volist>
+					</volist>
+				</div>
+			</div>
+		<else />
+		<div class="tip">
+			<img data-original="__IMG__/about/ywqd1.jpg"/>
+			<h3>您可以： </h3>
+			<ul>
+				<li>打印清单后带往简家体验馆进行体验选购。打印清单带到商场，帮助您更快在简家购买到心仪的家具。</li>
+				<li>点击预约，填写个人信息，简家客服会在24小时内联系您商量定制事宜。</li>
+			</ul>
+		</div>
+		<div class="table-responsive" id="printArea">
+		  <table class="table buy-table" >
+		  	<tr>
+		  		<th>家具</th>
+		  		<th>参考价</th>
+		  		<th>数量</th>
+		  		<th>小计</th>
+		  		<th></th>
+		  	</tr>
+		  	<volist name="bill" id="v">
+		  	<tr>
+		  		<td>{$v.title}：{$v.name}({$v.sname})</td>
+		  		<td>¥<span class="unit-price">{$v.price}</span></td>
+		  		<td><input type="number" class="num" value="{$v.num}" width="20" min="1"/></td>
+		  		<td>¥<span class="total-price"></span></td>
+		  		<td>
+		  			<a href="{:U('Goods/cart_del',array('id'=>$v['id']))}" hidden="hidden"><span>删除</span></a>
+		  			<a href="javascript:void(0);" id="{$v.id}" data-toggle="modal" data-target="#myModal{$v.id}"><i class="glyphicon glyphicon-remove"></i></a>
+		  		</td>
+		  	</tr>
+		  	<div class="modal fade" id="myModal{$v.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel{$v.id}">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel{$v.id}">确定要将该商品从愿望清单中删除吗？</h4>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" onclick="del({$v.id})" >确认</button>
+			        <button type="button" class="btn btn-primary" data-dismiss="modal">取消</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		  	</volist>
+		  </table>
+			<div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="success">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="success">恭喜您预约成功！</h4>
+			      </div>
+			      <div class="modal-body" style="padding: 50px 15px;">
+			      	<h4>请保持电话畅通，客服将在24小时内联系您商量定制事宜。</h4><br />
+			      	<h4>如有疑问请拨打热线电话：020-528-8549。</h4>
+			      </div>
+			      <div class="modal-footer">
+			        <a href="{:U('Index/index')}" class="btn btn-primary">返回主页</a>
+			        <button type="button" class="btn btn-default" data-dismiss="modal">确认</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		  <div class="all-price fr">
+		  	<span>总计：¥</span>
+		  	<span class="all-num"></span>
+		  	<button type="button" class="btn btn-lg btn-primary" onclick="onprint()">打印</button>
+		  	<button type="button" class="btn btn-lg btn-primary yy-btn" data-toggle="modal" data-target="#myModal">预约</button>
+		  	<p style="color: grey;margin-top: 10px;">价格仅为参考，实际价格与尺寸以定制结果为准。</p>
+		  </div>
+		</empty>
+		  <div class="clearfix"></div>
+		  <div class="print-show" hidden="hidden">
+			温馨提示：<br />
+			当您前往简家线下体验馆时请携带上您的愿望小票，<br />
+			可以出示愿望小票给服务人员以便更快速的找到您心仪的物品。
+		  </div>
+		</div>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			        <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">请填写个人信息</h4>
+			        </div>
+			        <div class="modal-body">
+			        <form action="" method="post">
+						<div class="form-group">
+						    <label for="name">称呼：<span style="color: red;">*</span></label>
+						    <input type="text" class="form-control" id="name" placeholder="请填写您的称呼/姓名" required="required">
+						</div>
+						<label for="">性别：</label>
+						<label class="radio-inline">
+						  <input type="radio" name="sex" id="man" value="先生" checked="checked"> 先生
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="sex" id="women" value="女士"> 女士
+						</label><br /><br />
+						<div class="form-group">
+						    <label for="tel">手机：<span style="color: red;">*</span></label>
+						    <input type="tel" class="form-control" id="tel" placeholder="请填写您的联系方式" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="11" required="required">
+						</div>
+						<div class="form-group">
+						    <label for="email">邮箱：</label>
+						    <input type="email" class="form-control" id="email" placeholder="请填写您的常用邮箱">
+						</div>
+						<div class="form-group">
+						    <label for="address">居住地址：<span style="color: red;">*</span></label>
+						    <input type="text" class="form-control" id="address" placeholder="请填写您的居住地址">
+						</div>
+						<p style="color: red;">*请务必填写正确的联系方式以便客服人员联系到您</p>
+						<!--<input type="submit" value="提交"/>-->
+					</form>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+			        <button type="button" id="submitPre" class="btn btn-primary">确定</button>
+			      </div>
+			    </div>
+			</div>
+		</div>
+		<div class="modal fade" id="confirmBox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			        <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel1">请确认预约定制单</h4>
+			        </div>
+			        <div class="modal-body">
+						<div class="form-group">
+						    <label>称呼：</label><span id="cname"></span>
+						</div>
+						<div class="form-group">
+						    <label>手机：</label><span id="ctel"></span>
+						</div>
+						<div class="form-group">
+						    <label>邮箱：</label><span id="cemail"></span>
+						</div>
+						<div class="form-group">
+						    <label>居住地址：</label><span id="caddress"></span>
+						</div>
+						 <label>预约家具：</label><br />
+						<table class="table" style="margin-top: 0;text-align: left;">
+						  	<volist name="bill" id="v">
+						  	<tr>
+						  		<td>{$v.title}：{$v.name}({$v.sname}) * {$v.num}</td>
+						  	</tr>
+						  	</volist>
+						</table>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+			        <button type="button" id="submit" class="btn btn-primary">确认预约</button>
+			      </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<include file="Common:foot" />
+<script type="text/javascript">
+$(function(){
+	//总价计算
+	var sum = 0;
+	$(".total-price").each(function(){
+		$(this).text(($(this).parent().prev().children().val()*$(this).parent().prev().prev().children().text()).toFixed(2))
+		sum += $(this).text()*1;
+	});
+	$(".all-num").text(sum.toFixed(2));
+	
+	$(".buy-table .num").change(function(){
+		var val = $(this).val();
+		var total = (val*$(this).parent().prev().children().text()).toFixed(2);
+		$(this).parent().next().children().text(total);
+		var sum = 0;
+		$(".total-price").each(function(){
+			sum += Number($(this).text());
+		});
+		$(".all-num").text(sum.toFixed(2));
+	});
+
+//提交用户信息
+	$("#submitPre").click(function(){
+		var username = $("#name").val();
+		var sex=$('input:radio[name="sex"]:checked').val();
+		var tel = $("#tel").val();
+		var email = $("#email").val();
+		var address = $("#address").val();
+		var err = $('<span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>');
+		var warn = $('<span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>');
+		$("#name,#tel,#address").focus(function(){
+			$(this).parent(".form-group").removeClass("has-error has-feedback").children('span').remove();
+		});
+		if(username == ""){
+			$("#name").parent(".form-group").addClass("has-error has-feedback").append(err);
+		};
+		if(tel == "" || tel.length != 11){
+			$("#tel").parent(".form-group").addClass("has-error has-feedback").append(err.clone());
+		};
+		if(address == ""){
+			$("#address").parent(".form-group").addClass("has-error has-feedback").append(err.clone());
+		};
+		
+		$('#myModal').on('hidden.bs.modal', function (e) {
+			$("#name").parent(".form-group").removeClass("has-error has-feedback").children('span').remove();
+			$("#tel").parent(".form-group").removeClass("has-error has-feedback").children('span').remove();
+			$("#address").parent(".form-group").removeClass("has-error has-feedback").children('span').remove();
+		})
+		
+		if(username != "" && tel != "" && address != "" && tel.length == 11){
+			$("#cname").text(username+sex);
+			$("#ctel").text(tel);
+			$("#cemail").text(email);
+			$("#caddress").text(address);
+			$('#myModal').modal('hide');
+			$('#confirmBox').modal('show');
+		}
+	});
+
+	$("#submit").click(function(){
+		var username = $("#name").val();
+		var sex=$('input:radio[name="sex"]:checked').val();
+		var tel = $("#tel").val();
+		var email = $("#email").val();
+		var address = $("#address").val();
+		
+		if(username != "" && tel != "" && address != "" && tel.length == 11){
+			$.ajax({
+				type:"post",
+				url:"{:U('Goods/submit_cart')}",
+				dataType:"json",
+				async:true,
+				data:{
+					name:username,
+					sex:sex,
+					tel:tel,
+					email:email,
+					address:address
+				},
+				success:function(data){
+					$('#success').modal();
+					$('#confirmBox').modal('hide');
+					$('#success').on('hidden.bs.modal', function (e) {
+ 					  window.location.reload();
+					})
+				},
+				error: function(e){
+					window.location.reload();
+					console.log(e);
+					alert("预约失败，请检查网络或者联系客服");
+				}
+			});
+		}
+	});
+
+})
+
+	function printHtml(html) {
+		document.body.innerHTML = html;
+		window.print();
+		window.location.reload();
+	}
+	
+	function onprint() {
+		var html = $("#printArea").html();
+		printHtml(html);
+	}
+	
+	function del(id){
+       $("#"+id).prev().children().click();
+    }
+	
+</script>
+</body>
+</html>

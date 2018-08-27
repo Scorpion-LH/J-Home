@@ -1,0 +1,591 @@
+[ 2017-03-30T16:20:04+08:00 ] ::1 /myBS/index.php/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2017-03-30T16:20:05+08:00 ] ::1 /myBS/index.php/Admin/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-03-30T16:20:18+08:00 ] ::1 /myBS/index.php/Admin/Index/admin_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `jj_admin` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `jj_admin` WHERE `name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-03-30T16:20:18+08:00 ] ::1 /myBS/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-03-30T16:20:42+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.1145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2017-03-30T16:20:54+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoinadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-03-30T16:28:18+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/add_join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0099s ]
+SQL: INSERT INTO `jj_join` (`leibie`,`gangwei`,`yaoqiu`) VALUES ('销售','销售代表','
+												岗位描述：&lt;br/&gt;&lt;p&gt;1、 熟悉掌握公司的产品知识，销售技巧，完成公司制定的销售指标。&lt;br/&gt;2、 负责公司店面的日常清洁及店面的维护，保持店面形象。&lt;br/&gt;3、 做好日常销售工作，为顾客提供满意的服务，处理好售后工作。&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;
+												岗位要求：&lt;br/&gt;1、年龄：20-35岁，男身高1.7米以上，女身高1.6米以上；&lt;br/&gt;2、形象好、气质佳，身材匀称、普通话流利；&lt;br/&gt;3、目标感强、态度积极、有团队合作精神；&lt;br/&gt;4、学历：高中专以上，营销、管理类专业优先；&lt;br/&gt;5、性格外向、善于沟通、有零售行业经验1年以上者优先。
+										') [ RunTime:0.0020s ]
+
+[ 2017-03-30T16:28:19+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-03-30T16:28:33+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoinupdate/id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `jj_join` WHERE ( id='24' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2017-03-30T16:28:39+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/update_join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0064s ]
+SQL: UPDATE `jj_join` SET `leibie`='销售',`gangwei`='销售代表',`id`='24',`yaoqiu`='
+												
+												岗位描述：&lt;br/&gt;&lt;br/&gt;&lt;p&gt;1、 熟悉掌握公司的产品知识，销售技巧，完成公司制定的销售指标。&lt;br/&gt;2、 负责公司店面的日常清洁及店面的维护，保持店面形象。&lt;br/&gt;3、 做好日常销售工作，为顾客提供满意的服务，处理好售后工作。&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;
+												岗位要求：&lt;br/&gt;1、年龄：20-35岁，男身高1.7米以上，女身高1.6米以上；&lt;br/&gt;2、形象好、气质佳，身材匀称、普通话流利；&lt;br/&gt;3、目标感强、态度积极、有团队合作精神；&lt;br/&gt;4、学历：高中专以上，营销、管理类专业优先；&lt;br/&gt;5、性格外向、善于沟通、有零售行业经验1年以上者优先。
+																				' WHERE ( id='24' ) [ RunTime:0.0006s ]
+
+[ 2017-03-30T16:28:41+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003248s ]
+
+[ 2017-03-30T16:28:46+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoinupdate/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_join` WHERE ( id='23' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-03-30T16:29:48+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002199s ]
+
+[ 2017-03-30T16:29:49+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoinadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-03-30T16:30:51+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/add_join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0048s ]
+SQL: INSERT INTO `jj_join` (`leibie`,`gangwei`,`yaoqiu`) VALUES ('技术','测量工','
+												岗位描述：&lt;br/&gt;&lt;br/&gt;装修测量工/售后测量监理&amp;nbsp;&lt;br/&gt;&lt;br/&gt;
+												岗位要求：&lt;br/&gt;1.20-45岁，高中毕业以上学历，品行端正，身体健康；&lt;br/&gt; 2.有装修行业工地勘察和面积测量工作经验，懂现场面积测量就行，可培训；&lt;br/&gt;3.服务理念、质量意识、安全意识及数据观念较强； &lt;br/&gt;4.勤恳踏实，积极认真，服从安排，有良好的工作责任心； &lt;br/&gt;5.口齿清晰，善于沟通，有一定的沟通协调处理问题的能力； &lt;br/&gt;6.需经常出工地进行现场勘察和铺装面积测量（广州市范围内），熟悉市内公交地铁线路；') [ RunTime:0.0004s ]
+
+[ 2017-03-30T16:30:52+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2017-03-30T16:30:58+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/join_del/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0093s ]
+SQL: DELETE FROM `jj_join` WHERE ( id='23' ) [ RunTime:0.0008s ]
+
+[ 2017-03-30T16:30:59+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2017-03-30T16:31:03+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/join_del/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0099s ]
+SQL: DELETE FROM `jj_join` WHERE ( id='2' ) [ RunTime:0.0008s ]
+
+[ 2017-03-30T16:31:04+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-03-30T16:31:09+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/join_del/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0096s ]
+SQL: DELETE FROM `jj_join` WHERE ( id='1' ) [ RunTime:0.0007s ]
+
+[ 2017-03-30T16:31:10+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000619s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2017-03-30T16:31:11+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoinadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-03-30T16:32:01+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/add_join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0091s ]
+SQL: INSERT INTO `jj_join` (`leibie`,`gangwei`,`yaoqiu`) VALUES ('物流','仓管员','
+												岗位描述：&lt;br/&gt;&lt;br/&gt;1. 库内货物的妥善保管及货物交接；&lt;br/&gt;2. 货物盘点、日常库位调整；&lt;br/&gt;3. 入库货物的库位安排、客户订单的备货。&lt;br/&gt;&lt;br/&gt;
+												岗位要求：&lt;br/&gt;&lt;br/&gt;1. 18-45岁，高中或中专以上学历，会使用叉车，拥有电动叉车驾驶资格证优先考虑录用；&lt;br/&gt;2. 懂电脑操作，有1年以上仓库工作经验；&lt;br/&gt;3. 工作积极，能吃苦耐劳，为人正直，做事原则性强。
+										') [ RunTime:0.0008s ]
+
+[ 2017-03-30T16:32:02+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2017-03-30T16:32:12+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoinadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-03-30T16:35:48+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/add_join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0087s ]
+SQL: INSERT INTO `jj_join` (`leibie`,`gangwei`,`yaoqiu`) VALUES ('行政','人事行政前台','
+												岗位描述：&lt;br/&gt;&lt;br/&gt;1、负责办公室日常行政事务； &lt;br/&gt;2、负责员工考勤管理统计与监督； &lt;br/&gt;3、执行招聘工作流程，协调、办理员工招聘、入职、离职等手续； &lt;br/&gt;4、帮助建立员工关系，组织员工活动； &lt;br/&gt;5、完成上级交给的其它事务性工作。&lt;br/&gt;&lt;br/&gt;
+												岗位要求：&lt;br/&gt;&lt;br/&gt;1、文秘、行政管理等相关专业大专以上学历； &lt;br/&gt;2、有相关人事行政工作经验者优先考虑； &lt;br/&gt;3、熟悉办公室行政管理知识及工作流程，熟悉公文写作格式，熟练运用OFFICE等办公软件； &lt;br/&gt;4、工作仔细认真、责任心强、为人正直，具备较强的书面和口头表达能力； &lt;br/&gt;5、形象好，气质佳，年龄在22-28岁。
+										') [ RunTime:0.0011s ]
+
+[ 2017-03-30T16:35:49+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0812s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-03-30T16:40:07+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoinupdate/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `jj_join` WHERE ( id='25' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-03-30T16:40:14+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/update_join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0096s ]
+SQL: UPDATE `jj_join` SET `leibie`='技术',`gangwei`='测量工',`id`='25',`yaoqiu`='
+												
+												岗位描述：&lt;br/&gt;&lt;br/&gt;装修测量工/售后测量监理&amp;nbsp;&lt;br/&gt;&lt;br/&gt;
+												岗位要求：&lt;br/&gt;1.20-45岁，高中毕业以上学历，品行端正，身体健康；&lt;br/&gt; 2.有装修行业工地勘察和面积测量工作经验，懂现场面积测量就行，可培训；&lt;br/&gt;3.服务理念、质量意识、安全意识及数据观念较强； &lt;br/&gt;4.勤恳踏实，积极认真，服从安排，有良好的工作责任心； &lt;br/&gt;5.口齿清晰，善于沟通，有一定的沟通协调处理问题的能力； &lt;br/&gt;6.需经常出工地进行现场勘察和铺装面积测量（广州市范围内），熟悉市内公交地铁线路；										' WHERE ( id='25' ) [ RunTime:0.0008s ]
+
+[ 2017-03-30T16:40:15+08:00 ] ::1 /myBS/index.php/Admin/Mjoin/Mjoin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `jj_join` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_join` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_join` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003253s ]
+
+[ 2017-03-30T22:33:52+08:00 ] ::1 /myBS/index.php/Admin/Map/map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `jj_map` [ RunTime:0.0774s ]
+SQL: SELECT * FROM `jj_map`  [ RunTime:0.0098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined variable: page D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Admin\ef4b35fcc6064733b822eec7a6125ceb.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002224s ]
+

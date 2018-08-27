@@ -1,0 +1,66 @@
+<title>简设创意-简家家居生活</title>
+<include file="Common:head" />
+<div class="design-container">
+	<div class="container">
+		<div class="design-title">
+			<h2>简家创意灵感</h2><br />
+			<p>我们不相信会有完美无缺的家，但是我们相信家能够完美彰显房子主人的风格特点。<br />
+				在家里，一切风格和功能都能按照你的喜好和需求设计，而且无需花费太多，即可为你带来舒适的感觉。<br />
+				这就是我们介绍各种家居创意的原因所在，从家居装饰创意到收纳技巧，再到让你的家充满更多绿色的灵感，一应俱全。<br />
+				有了这些创意和灵感，就可以打造出一方你喜欢称其为家的空间。</p>
+		</div>
+  	</div>
+	<div class="design-content">
+		<div id="design-box">
+			<volist name="design" id="vo">
+			<div class="box">
+				<a href="{:U('Design/show_design',array('id'=>$vo['id']))}">
+					<img src="{$vo.img}" alt="" class="img-responsive">
+					<p>{$vo.title}</p>
+					<p>{$vo.time}</p>
+				</a>
+			</div>
+			</volist>
+		</div>
+	</div>
+</div>
+<include file="Common:foot" />
+<script src="__JS__/jquery.waterfall.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="__JS__/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	var win = $(window);
+    var doc = $(document);
+    var iNav = $(".index-nav");
+      	
+    win.scroll(function(){
+    	if(doc.scrollTop()>150){
+    		iNav.fadeIn(100);
+    	}else{
+    		iNav.fadeOut(100);
+    	}
+    });
+	$("#design-box").waterfall({
+		url: "{:U('Design/design_list')}",
+	    itemClass: ".box",
+	    minColCount: 1,
+	    spacingWidth:50,	
+	    spacingHeight: 30,
+	    resizeable: true,
+	    ajaxCallback: function(success, end) {
+	        var data = {"data": [
+	            { "src": "about/about01.jpg","t1":"1","t2":"2"},
+	        ]};
+	        var str = "";
+	        var templ = '<div class="box" style="opacity:0;filter:alpha(opacity=0);"><a href=""><div class="pic"><img src="__IMG__/{{src}}" /></div><p>{{t1}}</p><p>{{t2}}</p></a></div>'
+
+	        for(var i = 0; i < data.data.length; i++) {
+	            str += templ.replace("{{src}}", data.data[i].src).replace("{{t1}}", data.data[i].t1).replace("{{t2}}", data.data[i].t2);
+	        }
+	        $(str).appendTo($("#design-box"));
+	        success();
+	        end();
+	    }
+	});
+</script>
+</body>
+</html>

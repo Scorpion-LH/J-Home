@@ -1,0 +1,2169 @@
+[ 2017-03-12T17:06:26+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2017-03-12T17:06:30+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0406s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-03-12T17:06:32+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0252s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0245s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-03-12T17:06:33+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0006s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-03-12T17:06:35+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-03-12T17:06:36+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0647s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0008s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2017-03-12T17:06:37+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-03-12T17:06:41+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-03-12T17:06:42+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0006s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-03-12T17:06:46+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-03-12T17:06:47+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0006s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-03-12T17:06:48+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-03-12T17:06:49+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2017-03-12T17:06:50+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-03-12T17:06:52+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0507s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-03-12T17:06:53+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0497s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-03-12T17:06:54+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0613s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2017-03-12T17:06:55+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-03-12T17:06:56+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2017-03-12T17:06:57+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2017-03-12T17:06:58+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0507s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-03-12T17:06:59+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2017-03-12T17:07:00+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0467s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-03-12T17:07:01+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-03-12T17:07:03+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-03-12T17:07:04+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-03-12T17:07:05+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-03-12T17:07:06+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-03-12T17:07:07+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-03-12T17:07:08+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0469s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0007s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-03-12T17:07:09+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003002s ]
+
+[ 2017-03-12T17:07:10+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0002s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-03-12T17:07:11+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-03-12T17:07:12+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-03-12T17:07:13+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-03-12T17:07:14+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-03-12T17:07:15+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-03-12T17:07:16+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-03-12T17:07:17+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-03-12T17:07:19+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0492s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2017-03-12T17:07:20+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-03-12T17:07:21+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img1`,`img2`,`img3`,`img4`,`img5`,`img6`,`img7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2017-03-12T19:56:08+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-03-12T19:56:12+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0505s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010995s ]
+
+[ 2017-03-12T19:58:43+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.044283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024276s ]
+
+[ 2017-03-12T19:58:45+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-03-12T20:00:36+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000357s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002320s ]
+
+[ 2017-03-12T20:00:40+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-03-12T20:00:44+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-03-12T20:41:22+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.1065s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-03-12T20:41:43+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2017-03-12T20:44:37+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2017-03-12T20:45:37+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-03-12T20:51:01+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-03-12T20:53:27+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001880s ]
+
+[ 2017-03-12T20:57:58+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0569s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002130s ]
+
+[ 2017-03-12T21:01:21+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2017-03-12T21:02:41+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2017-03-12T21:04:05+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2017-03-12T21:05:33+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2017-03-12T21:35:39+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2017-03-12T21:43:27+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0007s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003220s ]
+
+[ 2017-03-12T21:44:03+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0007s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002529s ]
+
+[ 2017-03-12T21:58:55+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2017-03-12T22:37:59+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2017-03-12T22:38:09+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001131s ]
+

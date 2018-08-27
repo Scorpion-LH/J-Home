@@ -1,0 +1,252 @@
+<title>NOCKEBY 诺可布-双人沙发, 坦诺 褐色, 木头-简家家居生活</title>
+<include file="Common:head" />
+<style>
+	.scale-img {
+		border: 1px solid gainsboro;
+	}
+</style>
+
+<div class="goods-detail">
+	<div class="container">
+		<ol class="breadcrumb">
+		  <li><a href="{:U('Index/index')}">首页</a></li>
+		  <li><a href="{:U('List/lglist',array('room'=>$topClass['id']))}">{$topClass.title}</a></li>
+		  <li><a href="{:U('List/lglist',array('room'=>$topClass['id']))}">{$class.title}</a></li>
+		  <li><a href="{:U('List/mdlist',array('title'=>$good['title']))}" id="title">{$good.title}</a></li>
+		</ol>
+		<div class="row">
+			<div class="col-xs-12 col-md-6">
+				<div class="goods-big-img">
+					<img src="{$good.thumbnail}" xq_big="true" setting='{"pwidth":300,"pheight":300,"scale" : 2,"pclass" : "scale-img","margin_top" : 100,"margin_left" : 50}'/>
+				</div>
+				<div class="goods-min-img">
+					<ul>
+						<volist name="gimg" id="img">
+							<volist name="img" id="sub">
+								<notempty name="sub">
+								<li><img src="{$sub}"/></li>
+								</notempty>
+							</volist>
+						</volist>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-5 col-md-offset-1">
+				<div class="goods-info">
+					<h2 id="myid" hidden="hidden">{$good.id}</h2>
+					<h2 id="name">{$good.name}</h2>
+					<p id="sname">{$good.sname}</p><br />
+					<span>参考价：</span><h1>¥<span id="price">{$good.price|sprintf='%.2f',###}</span></h1><br />
+					<p>货号：<span id="huohao">{$good.huohao}</span></p>
+					<notempty name="gg1_text">
+					<div class="row">
+						<div class="col-md-8"><span id="gg1">{$good.guige1_name}</span>
+							<select class="form-control" id="select1">
+							<volist name="option1" id='v1'>
+							  <option value="{$v1}">{$v1}</option>
+							</volist>
+							</select>
+						</div>
+					</div>
+					</notempty>
+					<notempty name="gg2_text">
+					<div class="row">
+						<div class="col-md-8"><span id="gg2">{$good.guige2_name}</span>
+							<select class="form-control" id="select2">
+							<volist name="option2" id='v2'>
+								<option value="{$v2}">{$v2}</option>
+							</volist>
+							</select>
+						</div>
+					</div>
+					</notempty>
+					<notempty name="gg3_text">
+					<div class="row">
+						<div class="col-md-8"><span id="gg3">{$good.guige3_name}</span>
+							<select class="form-control" id="select3">
+							<volist name="option3" id='v3'>
+								<option value="{$v3}">{$v3}</option>
+							</volist>
+							</select>
+						</div>
+					</div>
+					</notempty>
+					<div class="row">
+					    <div class="col-sm-3">数量
+					      <input type="number" class="form-control" id="num" placeholder="" value="1">
+					    </div>
+					</div>
+					<button type="button" class="btn btn-lg btn-primary" id="save">保存至愿望清单</button>
+					<div class="row">
+					    <div class="col-sm-12"><br />
+					    	<p style="color: red;">简家家具均可定制，最终价格与尺寸以实际定制结果为准。</p>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-8">
+				<div class="goods-detail-info">
+					<div class="panel panel-default">
+					  <div class="panel-heading">重要特征</div>
+					  <div class="panel-body">
+					       {$good.tezheng|htmlspecialchars_decode}
+					  </div>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">安装后尺寸</div>
+					  <div class="panel-body">
+					      {$good.size|htmlspecialchars_decode}
+					  </div>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">产品描述</h3>
+					  </div>
+					  <div class="panel-body">
+						{$good.describe|htmlspecialchars_decode}
+					  </div>
+					</div>
+					<notempty name="good['baoyang']">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">保养说明</h3>
+					  </div>
+					  <div class="panel-body">
+						{$good.baoyang|htmlspecialchars_decode}
+					  </div>
+					</div>
+					</notempty>
+					<notempty name="good['huanbao']">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">环保信息</h3>
+					  </div>
+					  <div class="panel-body">
+						{$good.huanbao|htmlspecialchars_decode}
+					  </div>
+					</div>
+					</notempty>
+					<notempty name="good['tip']">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">相关提示</h3>
+					  </div>
+					  <div class="panel-body">
+						{$good.tip|htmlspecialchars_decode}
+					  </div>
+					</div>
+					</notempty>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="goods-more">
+					<p>更多<span>{$class.title}</span></p>	
+					<volist name="subclass" id="s">
+					<a href="{:U('List/mdlist',array('title'=>$s['title']))}" class="col-sm-6 col-md-12">
+						<img data-original="{$s.img}" alt="" class="img-responsive"/>
+						<p>{$s.title}</p>
+					</a>
+					</volist>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">保存结果</h4>
+      </div>
+      <div class="modal-body" style="margin: 30px auto;">
+        <h1>所选商品已成功保存至购物清单</h1>
+      </div>
+      <div class="modal-footer" style="text-align: center;">
+        <a href="{:U('Goods/bill')}" class="btn btn-primary btn-lg" target="_blank">查看我的购物清单</a>
+        <a href="{:U('List/lglist',array('room'=>$topClass['id']))}" class="btn btn-default btn-lg">浏览更多{$topClass['title']}家具</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<include file="Common:foot" />
+<script src="__JS__/xq_bigimg.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+	$(function(){    
+   
+		$(".goods-min-img li img").hover(function(){
+			var minImgSrc = $(this).attr("src");
+			$(".goods-big-img img").attr("src",minImgSrc);
+		});
+		
+		$("#save").click(function(){
+			var myid = $("#myid").text();
+			var title = $("#title").text();
+			var name = $("#name").text();
+			var sname = $("#sname").text();
+			var price = $("#price").text();
+			var huohao = $("#huohao").text();
+			var gg1 = $("#gg1").text();
+			var gg2 = $("#gg2").text();
+			var gg3 = $("#gg3").text();
+			var select1 = $("#select1").val();
+			var select2 = $("#select2").val();
+			var select3 = $("#select3").val();
+			var num = $("#num").val();
+			var badge = Number($(".badge1").text());
+			
+			$.ajax({
+				type:"post",
+				url:"{:U('Goods/show_bill')}",
+				dataType:"json",
+				async:true,
+				data:{
+					id:myid,
+					title:title,
+					name:name,
+					sname:sname,
+					price:price,
+					huohao:huohao,
+					gg1:gg1,
+					gg2:gg2,
+					gg3:gg3,
+					select1:select1,
+					select2:select2,
+					select3:select3,
+					num:num,
+					badge:badge
+				},
+				success:function(data){
+					$(".badge1").text(data);
+					$(".badge2").text(data);
+					$('#myModal').modal();
+//					$('#myModal').on('hidden.bs.modal', function (e) {
+//					  self.location=document.referrer;
+//					})
+				},
+				error: function(e){
+					alert("失败");
+				}
+			});
+			
+		});
+		
+		var win = $(window);
+	    var doc = $(document);
+	    var iNav = $(".index-nav");
+	      	
+	    win.scroll(function(){
+	    	if(doc.scrollTop()>150){
+	    		iNav.fadeIn(100);
+	    	}else{
+	    		iNav.fadeOut(100);
+	    	}
+	    });
+	});
+    </script>
+    
+</body>
+</html>

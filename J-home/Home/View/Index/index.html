@@ -1,0 +1,444 @@
+<include file="Common:head" />
+<style type="text/css">
+.glyphicon.glyphicon-search {
+	padding: 0;
+}
+</style>
+
+	<nav class="navbar navbar-default index-nav navbar-fixed-top" role="navigation" hidden="hidden">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="{:U('Index/index')}"><img src="__IMG__/J-home-logo-08.png"  alt="简家家居" class="img-responsive" /></a>
+	    </div>
+		<form action="{:U('List/search')}" method="get" class="search-pos visible-xs">
+	      <div class="input-group" style="width: 150px;">
+		    <input type="text" name="search" class="form-control" placeholder="搜索产品...">
+		    <span class="input-group-btn">
+		    	<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+		    </span>
+		  </div>
+      	</form>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="{:U('List/lglist',array('room'=>'1'))}">客厅</a></li>
+	        <li><a href="{:U('List/lglist',array('room'=>'2'))}">卧室</a></li>
+	        <li><a href="{:U('List/lglist',array('room'=>'3'))}">厨房</a></li>
+	        <li><a href="{:U('List/lglist',array('room'=>'4'))}">餐厅</a></li>
+	        <li><a href="{:U('List/lglist',array('room'=>'5'))}">浴室</a></li>
+		  </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="hidden-xs hidden-sm">
+		      <form action="{:U('List/search')}" method="get">
+			      <div class="input-group" style="width: 200px;">
+				    <input type="text" name="search" class="form-control" placeholder="搜索产品...">
+				    <span class="input-group-btn">
+				    	<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+				    </span>
+				  </div>
+		      </form>
+	        </li>
+	        <li><a href="{:U('Goods/bill')}">愿望清单<span class="badge badge1">{$listNum}</span></a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div class="index-main">
+		<div class="container">
+			<div class="row menu">
+				<div class="col-md-2 col-lg-2 menu-nav">
+					<ul>
+						<li><a href="{:U('List/lglist',array('room'=>'1'))}">客厅<i class="icon-angle-right hidden-xs hidden-sm"></i></a>
+							<div class="menu-sub hidden-xs hidden-sm">
+								<volist name="list[1]" id="vo">
+								<dl>
+									<dt><a href="javascript:void(0)">{$vo.title}</a></dt>
+									<dd>
+										<volist name="list[$vo['id']]" id="vo2">
+										<a href="{:U('List/mdlist',array('title'=>$vo2['title']))}">{$vo2.title}</a>
+										</volist>
+									</dd>
+								</dl>
+								</volist>
+							</div>
+						</li>
+						<li><a href="{:U('List/lglist',array('room'=>'2'))}">卧室<i class="icon-angle-right hidden-xs hidden-sm"></i></a>
+							<div class="menu-sub hidden-xs hidden-sm">
+								<volist name="list[2]" id="vo">
+								<dl>
+									<dt><a href="javascript:void(0)">{$vo.title}</a></dt>
+									<dd>
+										<volist name="list[$vo['id']]" id="vo2">
+										<a href="{:U('List/mdlist',array('title'=>$vo2['title']))}">{$vo2.title}</a>
+										</volist>
+									</dd>
+								</dl>
+								</volist>
+							</div>
+						</li>
+						<li><a href="{:U('List/lglist',array('room'=>'3'))}">厨房<i class="icon-angle-right hidden-xs hidden-sm"></i></a>
+							<div class="menu-sub hidden-xs hidden-sm">
+								<volist name="list[3]" id="vo">
+								<dl>
+									<dt><a href="javascript:void(0)">{$vo.title}</a></dt>
+									<dd>
+										<volist name="list[$vo['id']]" id="vo2">
+										<a href="{:U('List/mdlist',array('title'=>$vo2['title']))}">{$vo2.title}</a>
+										</volist>
+									</dd>
+								</dl>
+								</volist>
+							</div>
+						</li>
+						<li><a href="{:U('List/lglist',array('room'=>'4'))}">餐厅<i class="icon-angle-right hidden-xs hidden-sm"></i></a>
+							<div class="menu-sub hidden-xs hidden-sm">
+								<volist name="list[4]" id="vo">
+								<dl>
+									<dt><a href="javascript:void(0)">{$vo.title}</a></dt>
+									<dd>
+										<volist name="list[$vo['id']]" id="vo2">
+										<a href="{:U('List/mdlist',array('title'=>$vo2['title']))}">{$vo2.title}</a>
+										</volist>
+									</dd>
+								</dl>
+								</volist>
+							</div>
+						</li>
+						<li><a href="{:U('List/lglist',array('room'=>'5'))}">浴室<i class="icon-angle-right hidden-xs hidden-sm"></i></a>
+							<div class="menu-sub hidden-xs hidden-sm">
+								<volist name="list[5]" id="vo">
+								<dl>
+									<dt><a href="javascript:void(0)">{$vo.title}</a></dt>
+									<dd>
+										<volist name="list[$vo['id']]" id="vo2">
+										<a href="{:U('List/mdlist',array('title'=>$vo2['title']))}">{$vo2.title}</a>
+										</volist>
+									</dd>
+								</dl>
+								</volist>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <img src="{$banner.img1}" alt="...">
+					    </div>
+					    <div class="item">
+					      <img src="{$banner.img2}" alt="...">
+					    </div>
+					    <div class="item">
+					      <img src="{$banner.img3}" alt="...">
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div id="keting" class="row index-content keting">
+				<div class="title">
+					<h2>客厅</h2>
+					<a href="{:U('List/lglist',array('room'=>'客厅'))}" class="more hidden-xs hidden-sm">更多<i class="icon-angle-right"></i></a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-left">
+					<div id="carousel-keting" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-keting" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-keting" data-slide-to="1"></li>
+					    <li data-target="#carousel-keting" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <a href=""><img src="{$banner_kt.img1}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_kt.img2}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_kt.img3}" alt="..."></a>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-right">
+					<div class="row">
+						<volist name="keting" id="kt">
+							<volist name="kt['good']" id="g">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+										<div class="col-xs-7 col-sm-12 col-md-12">
+								     		<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+								     	</div>
+										<div class="col-xs-5 col-sm-12 col-md-12">
+								      		<p>{$g.name}({$g.sname})</p>
+								     	</div>
+								    </a>
+								</div>
+							</volist>
+						</volist>
+					</div>
+				</div>
+			</div>
+			<div id="woshi" class="row index-content woshi">
+				<div class="title">
+					<h2>卧室</h2>
+					<a href="{:U('List/lglist',array('room'=>'卧室'))}" class="more hidden-xs hidden-sm">更多<i class="icon-angle-right"></i></a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-left">
+					<div id="carousel-woshi" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-woshi" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-woshi" data-slide-to="1"></li>
+					    <li data-target="#carousel-woshi" data-slide-to="2"></li>
+					  </ol>
+					
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <a href=""><img src="{$banner_ws.img1}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_ws.img2}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_ws.img3}" alt="..."></a>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-right">
+					<div class="row">
+						<volist name="woshi" id="ws">
+							<volist name="ws['good']" id="g">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+										<div class="col-xs-6 col-sm-12 col-md-12">
+									    	<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+										</div>
+										<div class="col-xs-6 col-sm-12 col-md-12">
+								    		<p>{$g.name}({$g.sname})</p>
+								    	</div>
+								    </a>
+								</div>
+							</volist>
+						</volist>
+					</div>
+				</div>
+			</div>
+			<div  id="chufang" class="row index-content chufang">
+				<div class="title">
+					<h2>厨房</h2>
+					<a href="{:U('List/lglist',array('room'=>'厨房'))}" class="more hidden-xs hidden-sm">更多<i class="icon-angle-right"></i></a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-left">
+					<div id="carousel-chufang" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-chufang" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-chufang" data-slide-to="1"></li>
+					    <li data-target="#carousel-chufang" data-slide-to="2"></li>
+					  </ol>
+					
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <a href=""><img src="{$banner_cf.img1}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_cf.img2}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_cf.img3}" alt="..."></a>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-right">
+					<div class="row">
+						<volist name="chufang" id="cf">
+							<volist name="cf['good']" id="g">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+								        <div class="col-xs-6 col-sm-12 col-md-12">
+									    	<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+										</div>
+										<div class="col-xs-6 col-sm-12 col-md-12">
+								    		<p>{$g.name}({$g.sname})</p>
+								    	</div>
+								    </a>
+								</div>
+							</volist>
+						</volist>
+					</div>
+				</div>
+			</div>
+			<div  id="canting" class="row index-content canting">
+				<div class="title">
+					<h2>餐厅</h2>
+					<a href="{:U('List/lglist',array('room'=>'餐厅'))}" class="more hidden-xs hidden-sm">更多<i class="icon-angle-right"></i></a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-left">
+					<div id="carousel-canting" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-canting" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-canting" data-slide-to="1"></li>
+					    <li data-target="#carousel-canting" data-slide-to="2"></li>
+					  </ol>
+					
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <a href=""><img src="{$banner_ct.img1}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_ct.img2}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_ct.img3}" alt="..."></a>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-right">
+					<div class="row">
+						<volist name="canting" id="ct">
+							<volist name="ct['good']" id="g">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+								        <div class="col-xs-6 col-sm-12 col-md-12">
+								     		<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+										</div>
+										<div class="col-xs-6 col-sm-12 col-md-12">
+							    	 		<p>{$g.name}({$g.sname})</p>
+							    		</div>
+								    </a>
+								</div>
+							</volist>
+						</volist>
+					</div>
+				</div>
+			</div>
+			<div  id="yushi" class="row index-content yushi">
+				<div class="title">
+					<h2>浴室</h2>
+					<a href="{:U('List/lglist',array('room'=>'浴室'))}" class="more hidden-xs hidden-sm">更多<i class="icon-angle-right"></i></a>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-left">
+					<div id="carousel-yushi" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-yushi" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-yushi" data-slide-to="1"></li>
+					    <li data-target="#carousel-yushi" data-slide-to="2"></li>
+					  </ol>
+					
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <a href=""><img src="{$banner_ys.img1}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_ys.img2}" alt="..."></a>
+					    </div>
+					    <div class="item">
+					      <a href=""><img src="{$banner_ys.img3}" alt="..."></a>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-right">
+					<div class="row">
+						<volist name="yushi" id="ys">
+							<volist name="ys['good']" id="g">
+								<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+									<a href="{:U('Goods/good',array('id'=>$g['id']))}">
+								        <div class="col-xs-6 col-sm-12 col-md-12">
+								     		<img data-original="{$g.thumbnail}" alt="..." class="img-responsive">
+										</div>
+										<div class="col-xs-6 col-sm-12 col-md-12">
+							    	 		<p>{$g.name}({$g.sname})</p>
+							    		</div>
+								    </a>
+								</div>
+							</volist>
+						</volist>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<include file="Common:foot" />
+	
+	<script>
+	
+      $(document).ready(function(){
+      	
+      	var winWidth = $(window).width();
+      		
+      		if(winWidth>992){
+      			navstyle();
+			}else{
+				var navLi = $(".index-main .menu ul li");
+    	
+		      	navLi.hover(function(){
+		      		$(".index-main .menu .menu-nav .menu-sub").css('left',0);
+		      		$(this).children(".menu-sub").css('display','block').animate({'opacity':1,'marginLeft':'0px'});
+		      	},function(){
+		      		$(this).children(".menu-sub").css({'display':'none','opacity':0,'marginLeft':'-20px'});
+		      	})
+			}
+      	
+      	$(window).resize(function(){
+	     var winWidth = $(window).width();
+      		
+      		if(winWidth>992){
+      			navstyle();
+			}else{
+				var navLi = $(".index-main .menu ul li");
+    	
+		      	navLi.hover(function(){
+		      		$(".index-main .menu .menu-nav .menu-sub").css('left',0);
+		      		$(this).children(".menu-sub").css('display','block').animate({'opacity':1,'marginLeft':'0px'});
+		      	},function(){
+		      		$(this).children(".menu-sub").css({'display':'none','opacity':0,'marginLeft':'-20px'});
+		      	})
+			}
+      		
+      	})
+      	
+	    var win = $(window);
+	    var doc = $(document);
+	    var iNav = $(".index-nav");
+	      	
+	    win.scroll(function(){
+	    	if(doc.scrollTop()>450){
+	    		iNav.fadeIn(100);
+	    	}else{
+	    		iNav.fadeOut(100);
+	    	}
+	    })
+	      	
+    	});
+	    	
+	function navstyle(){
+		var navLi = $(".index-main .menu ul li");
+    	
+      	navLi.hover(function(){
+      		var menuNavWidth = $(".menu-nav").outerWidth();
+      		$(".index-main .menu .menu-nav .menu-sub").css('left',menuNavWidth-1);
+      		$(this).children(".menu-sub").css('display','block').animate({'opacity':1,'marginLeft':'0px'});
+      	},function(){
+      		$(this).children(".menu-sub").css({'display':'none','opacity':0,'marginLeft':'-20px'});
+      	})
+	}
+      
+    </script>
+    
+</body>
+</html>

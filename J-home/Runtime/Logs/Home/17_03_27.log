@@ -1,0 +1,1785 @@
+[ 2017-03-27T21:15:14+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `jj_banner` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='大屏' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='客厅' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='卧室' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='厨房' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='餐厅' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='浴室' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0025s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 44 AND `id` < 80  )  [ RunTime:0.0014s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 79 AND `id` < 122  )  [ RunTime:0.0011s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 121 AND `id` < 149  )  [ RunTime:0.0012s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 148 AND `id` < 175  )  [ RunTime:0.0012s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 174 AND `id` < 198  )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布艺沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '皮沙发和人造革沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '沙发床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '组合沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '贵妃椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '脚蹬和矮凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '单人沙发和扶手椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '备用沙发套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '书柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '储物系列' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁架单元' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '橱柜和展示柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '储物盒和储物篮' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐边柜和长几' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = 'LED灯具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '台灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '落地灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '顶灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '射灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯罩、灯座和电线' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯泡和配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '地毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '靠垫和靠垫套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘杆和轨道' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘和百叶帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毯子和休闲毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布料和缝纫用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '电视柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '电视及视听设备储物' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '茶几' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '边桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '视听用品储物台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '双人床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '单人床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高架床和双层床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '客床和坐卧两用床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床头板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床边桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床用储物件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '泡沫和乳胶床垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '弹簧床垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '木条床板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床褥' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床垫保护套和枕套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '固定式衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '开放式衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '开放式衣类储物系列' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床用储物件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '衣物储藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '挂钩和衣架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '梳妆台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = 'LED灯具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '台灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '落地灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '顶灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '射灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯罩、灯座和电线' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯泡和配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床上用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '被子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '枕头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床罩' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '地毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毯子和休闲毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '靠垫和靠垫套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘和百叶帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘杆和轨道' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布料和缝纫用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '门' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉前板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置电器储藏柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '封板和装饰条' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '框架，挂干，支腿和底座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁板和抽屉' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉隔段' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '清洁收纳件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '垃圾分类' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '合叶和阻尼' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '烤箱' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灶具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '冰箱和冰柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽油烟机和滤器' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '厨房操作台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '操作台配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水槽附件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '混合型水龙头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水槽' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '墙面储藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '厨房岛和手推车' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '踏脚凳和梯子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '食品储藏室' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '拉手和拉钮' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '4人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '6人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '10人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '可加长桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌桌面和底架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅底架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅壳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '软垫式餐椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '折叠椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '椅套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組2人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組4人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組6人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '橱柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '展示柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐具柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '吧桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '吧椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '凳子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '长凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '咖啡馆椅子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '咖啡馆桌子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高脚椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '儿童椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池底柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室脚凳和长凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁架单元' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室推车' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室镜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '梳妆镜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毛巾' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室防滑垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毛巾架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '沐浴配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内部收藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水龙头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2017-03-27T21:16:12+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `jj_banner` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='大屏' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='客厅' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='卧室' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='厨房' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='餐厅' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='浴室' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0027s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 44 AND `id` < 80  )  [ RunTime:0.0014s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 79 AND `id` < 122  )  [ RunTime:0.0011s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 121 AND `id` < 149  )  [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 148 AND `id` < 175  )  [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 174 AND `id` < 198  )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布艺沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '皮沙发和人造革沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '沙发床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '组合沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '贵妃椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '脚蹬和矮凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '单人沙发和扶手椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '备用沙发套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '书柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '储物系列' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁架单元' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '橱柜和展示柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '储物盒和储物篮' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐边柜和长几' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = 'LED灯具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '台灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '落地灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '顶灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '射灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯罩、灯座和电线' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯泡和配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '地毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '靠垫和靠垫套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘杆和轨道' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘和百叶帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毯子和休闲毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布料和缝纫用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '电视柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '电视及视听设备储物' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '茶几' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '边桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '视听用品储物台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '双人床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '单人床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高架床和双层床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '客床和坐卧两用床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床头板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床边桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床用储物件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '泡沫和乳胶床垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '弹簧床垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '木条床板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床褥' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床垫保护套和枕套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '固定式衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '开放式衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '开放式衣类储物系列' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床用储物件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '衣物储藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '挂钩和衣架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '梳妆台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = 'LED灯具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '台灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '落地灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '顶灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '射灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯罩、灯座和电线' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯泡和配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床上用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '被子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '枕头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床罩' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '地毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毯子和休闲毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '靠垫和靠垫套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘和百叶帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘杆和轨道' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布料和缝纫用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '门' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉前板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置电器储藏柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '封板和装饰条' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '框架，挂干，支腿和底座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁板和抽屉' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉隔段' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '清洁收纳件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '垃圾分类' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '合叶和阻尼' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '烤箱' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灶具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '冰箱和冰柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽油烟机和滤器' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '厨房操作台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '操作台配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水槽附件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '混合型水龙头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水槽' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '墙面储藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '厨房岛和手推车' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '踏脚凳和梯子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '食品储藏室' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '拉手和拉钮' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '4人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '6人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '10人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '可加长桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌桌面和底架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅底架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅壳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '软垫式餐椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '折叠椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '椅套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組2人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組4人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組6人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '橱柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '展示柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐具柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '吧桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '吧椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '凳子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '长凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '咖啡馆椅子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '咖啡馆桌子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高脚椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '儿童椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池底柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室脚凳和长凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁架单元' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室推车' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室镜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '梳妆镜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毛巾' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室防滑垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毛巾架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '沐浴配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内部收藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水龙头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2017-03-27T21:16:26+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `jj_banner` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='大屏' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='客厅' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='卧室' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='厨房' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='餐厅' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='浴室' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0027s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 44 AND `id` < 80  )  [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 79 AND `id` < 122  )  [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 121 AND `id` < 149  )  [ RunTime:0.0008s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 148 AND `id` < 175  )  [ RunTime:0.0007s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 174 AND `id` < 198  )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布艺沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '皮沙发和人造革沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '沙发床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '组合沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '贵妃椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '脚蹬和矮凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '单人沙发和扶手椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '备用沙发套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '书柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '储物系列' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁架单元' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '橱柜和展示柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '储物盒和储物篮' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐边柜和长几' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = 'LED灯具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '台灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '落地灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '顶灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '射灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯罩、灯座和电线' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯泡和配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '地毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '靠垫和靠垫套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘杆和轨道' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘和百叶帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毯子和休闲毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布料和缝纫用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '电视柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '电视及视听设备储物' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '茶几' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '边桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '视听用品储物台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '双人床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '单人床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高架床和双层床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '客床和坐卧两用床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床头板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床边桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床用储物件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '泡沫和乳胶床垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '弹簧床垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '木条床板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床褥' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床垫保护套和枕套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '固定式衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '开放式衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '开放式衣类储物系列' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床用储物件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '衣物储藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '挂钩和衣架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '梳妆台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = 'LED灯具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '台灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '落地灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '顶灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '射灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯罩、灯座和电线' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯泡和配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床上用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '被子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '枕头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床罩' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '地毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毯子和休闲毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '靠垫和靠垫套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘和百叶帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘杆和轨道' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布料和缝纫用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '门' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉前板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置电器储藏柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '封板和装饰条' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '框架，挂干，支腿和底座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁板和抽屉' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉隔段' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '清洁收纳件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '垃圾分类' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '合叶和阻尼' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '烤箱' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灶具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '冰箱和冰柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽油烟机和滤器' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '厨房操作台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '操作台配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水槽附件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '混合型水龙头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水槽' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '墙面储藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '厨房岛和手推车' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '踏脚凳和梯子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '食品储藏室' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '拉手和拉钮' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '4人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '6人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '10人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '可加长桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌桌面和底架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅底架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅壳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '软垫式餐椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '折叠椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '椅套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組2人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組4人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組6人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '橱柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '展示柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐具柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '吧桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '吧椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '凳子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '长凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '咖啡馆椅子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '咖啡馆桌子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高脚椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '儿童椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池底柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室脚凳和长凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁架单元' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室推车' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室镜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '梳妆镜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毛巾' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室防滑垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毛巾架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '沐浴配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内部收藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水龙头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-03-27T21:21:00+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.4928s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.1519s ]
+SQL: SHOW COLUMNS FROM `jj_banner` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='大屏' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='客厅' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='卧室' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='厨房' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='餐厅' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_banner` WHERE ( position='浴室' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0029s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 44 AND `id` < 80  )  [ RunTime:0.0015s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 79 AND `id` < 122  )  [ RunTime:0.0011s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 121 AND `id` < 149  )  [ RunTime:0.0012s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 148 AND `id` < 175  )  [ RunTime:0.0012s ]
+SQL: SELECT `title` FROM `jj_class` WHERE ( `id` > 174 AND `id` < 198  )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布艺沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '皮沙发和人造革沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '沙发床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '组合沙发' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '贵妃椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '脚蹬和矮凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '单人沙发和扶手椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '备用沙发套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '书柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '储物系列' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁架单元' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '橱柜和展示柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '储物盒和储物篮' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐边柜和长几' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = 'LED灯具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '台灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '落地灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '顶灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '射灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯罩、灯座和电线' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯泡和配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '地毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '靠垫和靠垫套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘杆和轨道' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘和百叶帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毯子和休闲毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布料和缝纫用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '电视柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '电视及视听设备储物' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '茶几' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '边桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '视听用品储物台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '双人床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '单人床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高架床和双层床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '客床和坐卧两用床' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床头板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床边桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床用储物件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '泡沫和乳胶床垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '弹簧床垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '木条床板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床褥' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床垫保护套和枕套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '固定式衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '开放式衣柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '开放式衣类储物系列' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床用储物件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '衣物储藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '挂钩和衣架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '梳妆台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = 'LED灯具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '台灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '落地灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '顶灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '射灯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯罩、灯座和电线' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灯泡和配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床上用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '被子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '枕头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '床罩' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '地毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毯子和休闲毯' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '靠垫和靠垫套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘和百叶帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '窗帘杆和轨道' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '布料和缝纫用品' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '门' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉前板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '壁柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内置电器储藏柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '封板和装饰条' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '框架，挂干，支腿和底座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁板和抽屉' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽屉隔段' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '清洁收纳件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '垃圾分类' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '合叶和阻尼' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '烤箱' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '灶具' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '冰箱和冰柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '抽油烟机和滤器' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '厨房操作台' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '操作台配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水槽附件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '混合型水龙头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水槽' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '墙面储藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '厨房岛和手推车' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '踏脚凳和梯子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '食品储藏室' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '拉手和拉钮' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '4人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '6人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '10人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '可加长桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌桌面和底架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅底架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅壳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '软垫式餐椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '折叠椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '椅套' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組2人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組4人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐桌椅組6人座' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '橱柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '展示柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '餐具柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '吧桌' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '吧椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '凳子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '长凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '咖啡馆椅子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '咖啡馆桌子' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高脚椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '儿童椅' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池底柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '高柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '连壁柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室脚凳和长凳' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁架单元' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室推车' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室镜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '镜柜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '梳妆镜' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毛巾' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室防滑垫' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴帘' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '毛巾架' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '沐浴配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室配件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '搁板' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '内部收藏件' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '浴室照明' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '洗脸池' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE `title` = '水龙头' AND `index_show` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2017-03-27T21:21:29+08:00 ] ::1 /myBS/index.php/List/lglist/room/%E5%8E%A8%E6%88%BF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `jj_class` WHERE ( title='厨房' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002642s ]
+
+[ 2017-03-27T21:21:30+08:00 ] ::1 /myBS/index.php/List/countnum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '厨房橱柜和前板' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '内配件' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '厨房电器' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '操作台面' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '水龙头和水槽' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '墙面储物件' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '厨房岛和手推车' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '踏脚凳和梯子' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '食品贮藏室' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jj_goods` WHERE `btitle` = '拉手和拉钮' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-03-27T21:21:41+08:00 ] ::1 /myBS/index.php/About/map.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `jj_map` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `jj_map`  [ RunTime:0.0414s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\AboutController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003148s ]
+
+[ 2017-03-27T21:21:43+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0909s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0493s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001962s ]
+
+[ 2017-03-27T21:25:40+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000913s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-03-27T21:58:41+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002381s ]
+
+[ 2017-03-27T22:06:29+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2017-03-27T22:06:44+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2017-03-27T22:08:20+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004345s ]
+
+[ 2017-03-27T22:09:41+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2017-03-27T22:10:44+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003081s ]
+
+[ 2017-03-27T22:10:56+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003830s ]
+
+[ 2017-03-27T22:14:17+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-03-27T22:15:15+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-03-27T22:15:55+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2017-03-27T22:16:56+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2017-03-27T22:17:32+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000538s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000823s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-03-27T22:18:00+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-03-27T22:18:47+08:00 ] ::1 /myBS/index.php/Design/show_design/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `jj_design` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_design` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_design` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined variable: listNum D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\31194f34b6e3af53a5deb2332663fabd.php 第 55 行.
+NOTIC: [8] Undefined index: id D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\31194f34b6e3af53a5deb2332663fabd.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002629s ]
+
+[ 2017-03-27T22:18:50+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2017-03-27T22:21:05+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2017-03-27T22:27:39+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001857s ]
+
+[ 2017-03-27T22:27:51+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000658s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000916s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001836s ]
+
+[ 2017-03-27T22:27:55+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2017-03-27T22:29:34+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2017-03-27T22:29:51+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-03-27T22:30:11+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-03-27T22:30:26+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000584s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003338s ]
+
+[ 2017-03-27T22:31:33+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003236s ]
+
+[ 2017-03-27T22:31:35+08:00 ] ::1 /myBS/index.php/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\AboutController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2017-03-27T22:31:37+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2017-03-27T22:32:07+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-03-27T22:36:00+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-03-27T22:42:14+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0038s ]
+SQL: SELECT `img` FROM `jj_design`  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2017-03-27T22:45:29+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0018s ]
+SQL: SELECT `img` FROM `jj_design`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2017-03-27T22:45:50+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0012s ]
+SQL: SELECT `img` FROM `jj_design`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2017-03-27T22:45:58+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0033s ]
+SQL: SELECT `img` FROM `jj_design`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2017-03-27T22:48:29+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0051s ]
+SQL: SELECT `img` FROM `jj_design`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2017-03-27T22:52:12+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001943s ]
+
+[ 2017-03-27T22:52:38+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0029s ]
+SQL: SELECT `img` FROM `jj_design`  [ RunTime:0.0008s ]
+
+[ 2017-03-27T23:00:15+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-03-27T23:02:28+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2017-03-27T23:03:15+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2017-03-27T23:03:19+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002424s ]
+
+[ 2017-03-27T23:03:25+08:00 ] ::1 /myBS/index.php/Design/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `jj_design` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `jj_design`  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\DesignController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+

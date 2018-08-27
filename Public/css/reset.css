@@ -1,0 +1,33 @@
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a {
+	text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+html {
+	font-size: 62.5%;
+	font-family:"微软雅黑" !important;
+}
+
+body {
+	font-family:"微软雅黑" !important;
+	overflow-x: hidden;
+}
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }

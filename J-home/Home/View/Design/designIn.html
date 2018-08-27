@@ -1,0 +1,26 @@
+<title>{$design.title}-简设创意-简家家居生活</title>
+<include file="Common:head" />
+
+<div class="design-in">
+	<div class="container">
+		<h2 class="title">{$design.title}</h2>
+		<h6 class="time">{$design.time}</h6>
+		<p class="descript">{$design.describe}</p>
+		<div id="full-text">
+			{$design.content|htmlspecialchars_decode}
+		</div>
+		<div class="prev"><a href="{:U('Design/show_design',array('id'=>$design2['id']))}"><i class="glyphicon glyphicon-chevron-left"></i>上一篇：<span>{$design2.title}</span></a></div>
+		<div class="next"><a href="{:U('Design/show_design',array('id'=>$design1['id']))}">下一篇：<span>{$design1.title}</span><i class="glyphicon glyphicon-chevron-right"></i></a></div>
+		<div class="clearfix"></div>
+		<ol class="breadcrumb">
+		  <li><a href="{:U('Index/index')}">首页</a></li>
+		  <li><a href="{:U('Design/design')}">简设创意</a></li>
+		  <li>{$design.title}</li>
+		</ol>
+	</div>
+</div>
+
+<include file="Common:foot" />
+
+</body>
+</html>

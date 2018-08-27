@@ -1,0 +1,120 @@
+<title>人才招聘-简家家居生活</title>
+<include file="Common:head" />
+
+<div class="join">
+	<div class="container">
+		<div class="row">
+			<div>
+				<h5>人才招聘</h5>
+				<h2>一起来吧！</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-6">
+				<img src="__IMG__/join01.jpg" class="img-responsive"/>
+			</div>
+			<div class="col-xs-12 col-md-6 text">
+				<p>加入简家的那一刻，不管你来自哪里，<br />都会接触向 [简家人] 转变的新人培训体系。<br /><br />
+				结合每位员工不同的成长阶段，我们提供各式的训练课程。<br />为人才发展过程中，掌握必要的知识和技巧开发培训体系。<br /><br />
+				通过这样的人才培养策略，实现 [简家人] 的转变，进而促进公司事业的发展。</p>
+			</div>
+		</div>
+		<div class="row job">
+			<div class="col-xs-12 col-md-6">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<h4 class="category">销售类</h4>
+					<volist name="xiaoshou" id="vo">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading{$vo.id}">
+								<h4 class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion" href="#collapse{$vo.id}" aria-expanded="true" aria-controls="collapse{$vo.id}">
+						          	{$vo.gangwei}<i class="icon-angle-down"></i>
+						        </a>
+						      </h4>
+							</div>
+							<div id="collapse{$vo.id}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{$vo.id}">
+								<div class="panel-body">
+									{$vo.yaoqiu|htmlspecialchars_decode}
+								</div>
+							</div>
+						</div>
+					</volist>
+					<h4 class="category">技术类</h4>
+					<volist name="jishu" id="vo">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading{$vo.id}">
+								<h4 class="panel-title">
+						        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{$vo.id}" aria-expanded="false" aria-controls="collapse{$vo.id}">
+						          {$vo.gangwei}<i class="icon-angle-down"></i>
+						        </a>
+						      </h4>
+							</div>
+							<div id="collapse{$vo.id}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{$vo.id}">
+								<div class="panel-body">
+									{$vo.yaoqiu|htmlspecialchars_decode}
+								</div>
+							</div>
+						</div>
+					</volist>
+					<h4 class="category">物流类</h4>
+					<volist name="wuliu" id="vo">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading{$vo.id}">
+								<h4 class="panel-title">
+						        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{$vo.id}" aria-expanded="false" aria-controls="collapse{$vo.id}">
+						          {$vo.gangwei}<i class="icon-angle-down"></i>
+						        </a>
+						      </h4>
+							</div>
+							<div id="collapse{$vo.id}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{$vo.id}">
+								<div class="panel-body">
+									{$vo.yaoqiu|htmlspecialchars_decode}
+								</div>
+							</div>
+						</div>
+					</volist>
+					<h4 class="category">行政类</h4>
+					<volist name="xingzheng" id="vo">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading{$vo.id}">
+								<h4 class="panel-title">
+						        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{$vo.id}" aria-expanded="false" aria-controls="collapse{$vo.id}">
+						          {$vo.gangwei}<i class="icon-angle-down"></i>
+						        </a>
+						      </h4>
+							</div>
+							<div id="collapse{$vo.id}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{$vo.id}">
+								<div class="panel-body">
+									{$vo.yaoqiu|htmlspecialchars_decode}
+								</div>
+							</div>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<div class="pull-right">
+					<div class="resume">
+						请将您的简历发送到邮箱<br /> 504559419@qq.com
+						<br /> (格式：城市+岗位+姓名)
+						<br /> 我们收到您的申请后将会及时联系您。
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<include file="Common:foot" />
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".navbar-nav li:eq(3)").addClass("active");
+	
+});
+
+</script>
+
+</body>
+</html>

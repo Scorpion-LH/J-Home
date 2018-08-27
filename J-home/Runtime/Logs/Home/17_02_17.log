@@ -1,0 +1,1084 @@
+[ 2017-02-17T11:38:12+08:00 ] ::1 /myBS/index.php/List/lglist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-02-17T11:38:13+08:00 ] ::1 /myBS/index.php/List/mdlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2017-02-17T11:38:22+08:00 ] ::1 /myBS/index.php/Goods/good.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002761s ]
+
+[ 2017-02-17T14:28:02+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2017-02-17T14:42:52+08:00 ] ::1 /myBS/index.php/List/lglist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-02-17T14:43:47+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2017-02-17T14:44:33+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-17T14:53:04+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2017-02-17T14:55:20+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-02-17T14:55:57+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2017-02-17T14:56:26+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2017-02-17T14:56:50+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2017-02-17T14:57:19+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined variable: vo D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 91 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2017-02-17T14:58:14+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: class D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2017-02-17T14:58:32+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined variable: class D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-02-17T14:59:06+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: Lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002180s ]
+
+[ 2017-02-17T14:59:25+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+NOTIC: [8] Undefined index: lclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 92 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2017-02-17T15:01:04+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: room D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003551s ]
+
+[ 2017-02-17T15:02:05+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-02-17T15:02:07+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2017-02-17T15:02:44+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000506s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] Undefined index: room D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2017-02-17T15:04:08+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `jj_class` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-02-17T15:08:36+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `jj_class` WHERE ( room="keting" )  [ RunTime:0.0401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000562s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000725s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2017-02-17T15:08:45+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `jj_class` WHERE ( room="客厅" )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2017-02-17T15:10:18+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `jj_class` WHERE ( Lclass="沙发和手扶椅" )  [ RunTime:0.0530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002124s ]
+
+[ 2017-02-17T15:12:07+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0535s ]
+SQL: SELECT * FROM `jj_class` WHERE ( Lclass="沙发和手扶椅" )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2017-02-17T15:12:29+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `jj_class` WHERE ( Lclass="沙发和手扶椅" )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002993s ]
+
+[ 2017-02-17T15:12:38+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `jj_class` WHERE ( Lclass="沙发和手扶椅" )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+NOTIC: [8] Undefined index: Sclass D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2017-02-17T15:14:54+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-02-17T15:15:11+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002017s ]
+
+[ 2017-02-17T15:16:46+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000719s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000950s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003177s ]
+
+[ 2017-02-17T15:28:02+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2017-02-17T15:37:40+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+ERR: 1146:Table 'jj_db.jj_product_class' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jj_product_class`
+ERR: 1146:Table 'jj_db.jj_product_class' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jj_product_class`
+
+[ 2017-02-17T15:39:10+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2017-02-17T15:39:12+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-02-17T15:39:21+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined variable: class D:\XAMPP\htdocs\myBS\J-home\Runtime\Cache\Home\c205b3a1e192b3036e06cd6a22599a7e.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001826s ]
+
+[ 2017-02-17T15:40:32+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2017-02-17T15:42:57+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\myBS\ThinkPHP\Common\functions.php:850) D:\XAMPP\htdocs\myBS\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2017-02-17T15:50:08+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `jj_class` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+

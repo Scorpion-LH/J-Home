@@ -1,0 +1,917 @@
+[ 2017-03-13T10:55:45+08:00 ] ::1 /myBS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-03-13T13:04:39+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0581s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-03-13T13:04:45+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E6%B1%89%E6%9F%8F%E6%9E%97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='汉柏林' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2017-03-13T13:04:50+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E9%98%BF%E5%B0%94%E5%8D%91%E6%96%AF1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0418s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='阿尔卑斯1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-03-13T13:05:10+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-03-13T13:06:18+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-03-13T13:06:21+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2017-03-13T13:06:29+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2017-03-13T13:06:33+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2017-03-13T13:06:38+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-03-13T13:06:42+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0013s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-03-13T13:06:45+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2017-03-13T13:06:49+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-03-13T13:06:52+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2017-03-13T13:07:00+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0016s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002511s ]
+
+[ 2017-03-13T15:14:01+08:00 ] ::1 /myBS/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `jj_class`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2017-03-13T16:45:03+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005497s ]
+
+[ 2017-03-13T16:45:07+08:00 ] ::1 /myBS/index.php/Goods/good/name/ceshi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='ceshi' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='ceshi' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='ceshi' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='3' )  [ RunTime:0.0004s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='ceshi' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='ceshi' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='ceshi' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-03-13T20:45:56+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-03-13T20:45:59+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E8%AF%BA%E6%96%AF%E4%BC%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0007s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2017-03-13T20:47:34+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E8%AF%BA%E6%96%AF%E4%BC%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0005s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2017-03-13T20:53:17+08:00 ] ::1 /myBS/index.php/Goods/good/name/%E8%AF%BA%E6%96%AF%E4%BC%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `jj_goods_img` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `title` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pic1`,`pic2`,`pic3`,`pic4`,`pic5`,`pic6`,`pic7` FROM `jj_goods_img` WHERE ( id='1' )  [ RunTime:0.0008s ]
+SQL: SELECT `guige1_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige2_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `guige3_text` FROM `jj_goods` WHERE ( name='诺斯伯' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\GoodsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2017-03-13T20:53:21+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0426s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+
+[ 2017-03-13T20:53:25+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2017-03-13T20:53:33+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0008s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2017-03-13T20:55:39+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2017-03-13T20:57:56+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2017-03-13T20:58:13+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-03-13T20:58:44+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-03-13T20:58:48+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2017-03-13T21:01:25+08:00 ] ::1 /myBS/index.php/List/mdlist/title/%E5%B8%83%E8%89%BA%E6%B2%99%E5%8F%91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `jj_list` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `jj_goods` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `jj_class` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `jj_list` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jj_goods` WHERE ( title='布艺沙发' )  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `jj_class` WHERE ( title='布艺沙发' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jj_class` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cart D:\XAMPP\htdocs\myBS\J-home\Home\Controller\ListController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
